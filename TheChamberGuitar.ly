@@ -28,31 +28,6 @@ thisComposer= \thisComposerMovI
 }
 
 
-%{ --------------- Second Mov: Andante
-thisIdentifier = \thisIdentifierMovII     %---------------------- /common/variables.ily [set to corresponding movement]
-thisTempo =      \thisTempoMovII          %---------------------- /common/variables.ily [set to corresponding movement]
-thisTocLabel =   \label \thisLabelMovII   %---------------------- /common/variables.ily [set to corresponding movement]
-\include "02_andante/music.ily"                %---------------------- [set to corresponding movement folder]
-\bookpart {  \include "common/conductor-staff.ily" }
-
-
-%--------------- third Mov: Allegretto
-thisIdentifier = \thisIdentifierMovIII     %---------------------- /common/variables.ily [set to corresponding movement]
-thisTempo =      \thisTempoMovIII          %---------------------- /common/variables.ily [set to corresponding movement]
-thisTocLabel =   \label \thisLabelMovIII   %---------------------- /common/variables.ily [set to corresponding movement]
-\include "03_allegretto/music.ily"                %---------------------- [set to corresponding movement folder]
-\bookpart { \include "common/conductor-staff.ily" }
-
-
-
-%--------------- Fourth Mov: Allegro
-thisIdentifier = \thisIdentifierMovIV     %---------------------- /common/variables.ily [set to corresponding movement]
-thisTempo =      \thisTempoMovIV          %---------------------- /common/variables.ily [set to corresponding movement]
-thisTocLabel =   \label \thisLabelMovIV   %---------------------- /common/variables.ily [set to corresponding movement]
-\include "04_allegro/music.ily"                %---------------------- [set to corresponding movement folder]
-\bookpart { \include "common/conductor-staff.ily" }
-
-%}
 
 
 
