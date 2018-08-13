@@ -1,9 +1,13 @@
-
+%{
+  *                                                    *
+  * Generates flute part                                                 *
+  *                                                                     *
+%}
 
 %#(set-default-paper-size "letter")
 #(ly:set-option 'relative-includes #t)
-
-\include "../common/version.ily"
+\version "2.19"
+%\include "../common/version.ily"
 \include "../common/variables.ily"
 \include "../common/mutopia-header.ily"
 \include "../common/definitions.ily"
@@ -16,40 +20,32 @@ thisClef = \thisClefInstrI       %----------- [manual entry]
 
 %---------------MOVEMENTS 
 %---------------First Mov: Allegro
-\include "../01_Boismortier/music.ily"
+\include "../01_lento/music.ily"
 theseNotes = \flute      %--------------- /mov_/music.ily
 thisTempo = \thisTempoMovI  %--------------- /common/variables.ily
 thisIdentifier = \thisIdentifierMovI %------ /common/variables.ily
 \bookpart { \include "../common/parts-staff-single-instr.ily" }
 
-%{---------------Second Mov: Andante
-\include "../02_andante/music.ily"
-theseNotes = \cello       %--------------- /mov_/music.ily
+%---------------Second Mov: Andante
+\include "../02_allegro/music.ily"
+theseNotes = \flute       %--------------- /mov_/music.ily
 thisTempo = \thisTempoMovII  %-------------- /common/variables.ily
 thisIdentifier = \thisIdentifierMovII %----- /common/variables.ily
 \bookpart { \include "../common/parts-staff-single-instr.ily" }
 
 %--------------Third Mov: Allegretto
-\include "../03_allegretto/music.ily"
-theseNotes = \cello       %--------------- /mov_/music.ily
+\include "../03_largo/music.ily"
+theseNotes = \flute      %--------------- /mov_/music.ily
 thisTempo = \thisTempoMovIII  %------------- /common/variables.ily
 thisIdentifier = \thisIdentifierMovIII %---- /common/variables.ily
 \bookpart { \include "../common/parts-staff-single-instr.ily" }
 
 %--------------Fourth Mov: Allegro
 \include "../04_allegro//music.ily"
-theseNotes = \cello        %--------------- /mov_/music.ily
+theseNotes = \flute        %--------------- /mov_/music.ily
 thisTempo = \thisTempoMovIV  %------------- /common/variables.ily
 thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
 \bookpart { \include "../common/parts-staff-single-instr.ily" }
-%}
-
-
-
-
-
-
-
 
 
 

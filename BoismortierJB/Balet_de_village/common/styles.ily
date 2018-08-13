@@ -105,8 +105,8 @@
   referenceFooter = \markup {
     \fill-line { \abs-fontsize #10 \concat {
                      \thisBigTitle              %---------------- /common/variables.ily
-                    % \hspace #0.4 \char ##x2014 \hspace #0.4 
-                    % \thisInstrName             %---------------- defined ahead of file insertion
+                     \hspace #0.4 \char ##x2014 \hspace #0.4 
+                     \thisInstrName             %---------------- defined ahead of file insertion
   } } }
                
   evenFooterMarkup = \markup {  \override #'( baseline-skip . 0.5 )

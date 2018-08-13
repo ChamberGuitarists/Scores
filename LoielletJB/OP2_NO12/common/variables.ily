@@ -13,47 +13,51 @@
 \include "version.ily"
 
 %%------------------Work-specific variables
-thisComposer = "Chamber Guitarists"
-thisWork = "The Chamber Guitar"
+thisComposer = "J. B. Loiellet"
+thisWork = "Trio Sonata"
 thisOrchester = "flute, violin, and guitar"
-thisOpus = "1689 - 1755"
-thisVolume = "Vol. 1"
+thisOpus = "Opus 2 No. 12"
 thisTonality = ""
-thisStyle = "Classical"
-thisDates = "2018"
+thisStyle = "Baroque"
+thisDates = "1680 -1730"
 thisDateOfPublication = "2018"
-thisSource = "Breitkopf & Härtel, 1883"
-thisBigTitle = "The Chamber Guitar"
+thisSource = "John Walsh & Joseph Hare, n.d.(ca.1725)"
+thisBigTitle = "Trio Sonata"
 
-combinedPublicationName = ""
+combinedPublicationName = "Full Score"
 
 %%----------------Movement-specific variables
-thisWorkMovI = "The Chamber Guitar"
-thisIdentifierMovI = "Balet de Village"
-thisTempoMovI = "Gaiment"
-thisLabelMovI = #'MvmtI
-thisComposerMovI= "J.B. Boismortier"
-thisFilenameMovI = "01-Boismortier"
-thisNotesMovI= "BoismortierJB/Balet_de_village/01_gaiment/music.ily"
+%thisWorkMovI = "Lento"
+%thisIdentifierMovI = "1. Lento"
+%thisTempoMovI = "Lento"
+%thisLabelMovI = #'MvmtI
+%thisComposerMovI= "J.B. Loiellet"
+%thisFilenameMovI = "Loiellet_1"
+thisNotesMovI= "01_lento/music.ily"
+thisNotesMovII= "02_allegro/music.ily"
+thisNotesMovIII= "03_largo/music.ily"
+thisNotesMovIV= "04_allegro/music.ily"
 
-thisTempoMovII = "Andante"
-thisTempoMovIII = "Allegretto"
+thisTempoMovI = "Lento"
+thisTempoMovII = "Allegro"
+thisTempoMovIII = "Largo"
 thisTempoMovIV = "Allegro"
 
 
-thisIdentifierMovII = "II. Romanze"
-thisIdentifierMovIII = "III. Menuetto"
-thisIdentifierMovIV = "IV. Rondo"
+thisIdentifierMovI = "I"
+thisIdentifierMovII = "II"
+thisIdentifierMovIII = "III"
+thisIdentifierMovIV = "IV"
 
-
+thisLabelMovI = #'MvmtI
 thisLabelMovII = #'MvmtII
 thisLabelMovIII = #'MvmtIII
 thisLabelMovIV = #'MvmtIV
 
-
-thisFilenameMovII = "MozartWA-KV525-mov-02"
-thisFilenameMovIII = "MozartWA-KV525-mov-03"
-thisFilenameMovIV = "MozartWA-KV525-mov-04"
+thisFilenameMovI = "LoielletJB-OP2no12-01"
+thisFilenameMovII = "LoielletJB-OP2no12-02"
+thisFilenameMovIII = "LoielletJB-OP2no12-03"
+thisFilenameMovIV = "LoielletJB-OP2no12-04"
 
 %%----------------Instrument-specific variables
 thisInstrNameI = "Flute"

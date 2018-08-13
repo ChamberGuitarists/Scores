@@ -34,21 +34,20 @@
 
 %% - Formatting of titles for Cover page and TOC
 %% - all variables in this section are defined in /common/variables.ily
-%coverComposer =  	\markup { \abs-fontsize #24 \thisComposer }
-coverComposer =  	\markup { \abs-fontsize #17 "Boismortier, Loiellet, Handel, Mozart" }
+coverComposer =  	\markup { \abs-fontsize #24 \thisComposer }
+%coverComposer =  	\markup { \abs-fontsize #24 "OMET" }
 coverDates =		\markup { \abs-fontsize #17 \thisDates }
 coverVolutesUp = 	\markup {\epsfile #X #80 #"./common/scroll-one-top.eps"}
 coverTitle = 		\markup { \abs-fontsize #30 \medium \smallCaps \thisWork }
 coverTonality = 	\markup { \abs-fontsize #22 \medium \thisTonality }
-coverVolume = 		\markup { \abs-fontsize #22 \medium \thisVolume }
+coverOpus = 		\markup { \abs-fontsize #22 \medium \thisOpus }
 coverSubtitle = 	\markup { \abs-fontsize #16 \medium \thisOrchester }
 coverDateCollection = 	\markup { \abs-fontsize #20 \medium \thisDateOfPublication }
 coverVolutesDown = 	\markup {\epsfile #X #80 #"./common/scroll-one-btm.eps"}
-%coverGenre = 		\markup { \abs-fontsize #28 \combinedPublicationName }
-coverGenre = 		\markup { \italic \abs-fontsize #12 "Typeset and compiled by Mike Blackstock" }
-coverLicense= \markup { \abs-fontsize #12 "Creative Commons Attribution 4.0 International Public License"}
+coverGenre = 		\markup { \abs-fontsize #28 \combinedPublicationName }
+
 %TocComposer = 	\markup { \abs-fontsize #14 \thisComposer }
-TocComposer = 	\markup { \abs-fontsize #14 "Boismorier et al" }
+TocComposer = 	\markup { \abs-fontsize #14 "OMET" }
 TocTitle = 	\markup { \abs-fontsize #18 \medium \smallCaps \thisWork }
 TocTonality = 	\markup { \abs-fontsize #14 \medium \thisTonality }
 TocHeading = 	\markup { \abs-fontsize #22 "Table of Contents" }
@@ -70,12 +69,12 @@ CoverA = \markup {
 %   \box
     \column {
       \fill-line { \lower #16 \coverComposer }
-%      \fill-line { \lower #8 \coverDates }
+      \fill-line { \lower #8 \coverDates }
       \combine \null \vspace #2
       \fill-line { \lower #22 \coverVolutesUp }
       \fill-line { \lower #15 \coverTitle }
       \fill-line { \lower #10 \coverTonality }
-      \fill-line { \lower #14 \coverVolume }
+      \fill-line { \lower #14 \coverOpus }
       \fill-line { \lower #9 \coverSubtitle}
       \fill-line { \lower #6 \draw-line #'(20 . 0) }
       \fill-line { \lower #9 \coverDateCollection }

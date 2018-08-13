@@ -16,8 +16,7 @@
 thisComposer = "Chamber Guitarists"
 thisWork = "The Chamber Guitar"
 thisOrchester = "flute, violin, and guitar"
-thisOpus = "1689 - 1755"
-thisVolume = "Vol. 1"
+thisOpus = "Vol. 1"
 thisTonality = ""
 thisStyle = "Classical"
 thisDates = "2018"
@@ -25,7 +24,7 @@ thisDateOfPublication = "2018"
 thisSource = "Breitkopf & Härtel, 1883"
 thisBigTitle = "The Chamber Guitar"
 
-combinedPublicationName = ""
+combinedPublicationName = "Full Score"
 
 %%----------------Movement-specific variables
 thisWorkMovI = "The Chamber Guitar"
@@ -33,8 +32,8 @@ thisIdentifierMovI = "Balet de Village"
 thisTempoMovI = "Gaiment"
 thisLabelMovI = #'MvmtI
 thisComposerMovI= "J.B. Boismortier"
-thisFilenameMovI = "01-Boismortier"
-thisNotesMovI= "BoismortierJB/Balet_de_village/01_gaiment/music.ily"
+thisFilenameMovI = "Boismortier_1"
+thisNotesMovI= "01_gaiment/music.ily"
 
 thisTempoMovII = "Andante"
 thisTempoMovIII = "Allegretto"
