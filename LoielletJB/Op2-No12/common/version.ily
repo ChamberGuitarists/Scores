@@ -1,46 +1,12 @@
 %{
   ***********************************************************************
   *                                                                     *
-  * General dimensions, conductor's score                               *
+  * Version number; to be included at the top of all files              *
   *                                                                     *
   * Do not compile                                                      *
   *                                                                     *
   ***********************************************************************
 %}
 
-\include "version.ily"
-
-% Overall size = influences the arrangement of covers and text-based pages
-
-#(set-global-staff-size 15)
-%#(set-global-staff-size 15)
-
-% Dimension of scores
-\layout {
-%#(layout-set-staff-size 17)
-#(layout-set-staff-size 15) 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\version "2.18.2"
 

@@ -25,6 +25,7 @@
   piece = \markup { \abs-fontsize #14 \raise #1 { \hspace #20
                                              \thisTempo  %-------------------- to be defined ahead of file insertion
   } }
+  copyright= "Creative Commons Attribution-ShareAlike 4.0"
 }
 
 \paper {
@@ -79,7 +80,10 @@
                        \Part                   %---------------- to be defined ahead of file insertion
              } }
 
-  oddHeaderMarkup = \markup {
+
+%{
+
+oddHeaderMarkup = \markup {
     \column {
       \fill-line {
         { \abs-fontsize #10 \on-the-fly #print-page-number-check-first
@@ -130,7 +134,8 @@
       %% Added footer for all pages except first
       \fill-line { \on-the-fly #not-part-first-page { \referenceFooter }
   } } }
-  
+
+%}
 }   %--end \paper definition
   
 

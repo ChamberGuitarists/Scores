@@ -9,10 +9,10 @@
 \include "../common/variables.ily"
 \include "../common/definitions.ily"
 
-\include "../01_Boismortier/music.ily"
+\include "../01_gaiment/music.ily"
 \book {
   \bookOutputName \thisFilenameMovI      %-------- /common/variables.ily
-  \include "../01_Boismortier/midi.ily"
+  \include "../01_gaiment/midi.ily"
 }
 
 %{

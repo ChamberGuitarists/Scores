@@ -26,7 +26,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \paper {
-  first-page-number = 0    %----------------------- Takes into account 2 cover pages
+  first-page-number = -1    %----------------------- Takes into account 2 cover pages
   left-margin = 12\mm
   top-margin = 12.6\mm
   bottom-margin = 8\mm
@@ -34,22 +34,18 @@
 
 %% - Formatting of titles for Cover page and TOC
 %% - all variables in this section are defined in /common/variables.ily
-%coverComposer =  	\markup { \abs-fontsize #24 \thisComposer }
-coverDedication = \markup { \abs-fontsize #14 \italic "for Janet" }
-coverComposer =  	\markup { \abs-fontsize #17 "Boismortier, Loiellet, Handel, Mozart" }
+coverComposer =  	\markup { \abs-fontsize #24 \thisComposer }
 coverDates =		\markup { \abs-fontsize #17 \thisDates }
 coverVolutesUp = 	\markup {\epsfile #X #80 #"./common/scroll-one-top.eps"}
 coverTitle = 		\markup { \abs-fontsize #30 \medium \smallCaps \thisWork }
 coverTonality = 	\markup { \abs-fontsize #22 \medium \thisTonality }
-coverVolume = 		\markup { \abs-fontsize #22 \medium \thisVolume }
-coverSubtitle = 	\markup { \abs-fontsize #16 \medium \thisOrchester }
+coverOpus = 		\markup { \abs-fontsize #22 \medium \thisOpus }
+coverSubtitle = 	\markup { \abs-fontsize #16 \italic \medium \thisOrchester }
 coverDateCollection = 	\markup { \abs-fontsize #20 \medium \thisDateOfPublication }
 coverVolutesDown = 	\markup {\epsfile #X #80 #"./common/scroll-one-btm.eps"}
-%coverGenre = 		\markup { \abs-fontsize #28 \combinedPublicationName }
-coverGenre = 		\markup { \italic \abs-fontsize #12 "Typeset and compiled by M. Blackstock" }
-coverLicense= \markup { \abs-fontsize #12 "Creative Commons Attribution 4.0 International Public License"}
-%TocComposer = 	\markup { \abs-fontsize #14 \thisComposer }
-TocComposer = 	\markup { \abs-fontsize #14 "Boismortier et al" }
+coverGenre = 		\markup { \abs-fontsize #28 \combinedPublicationName }
+
+TocComposer = 	\markup { \abs-fontsize #14 \thisComposer }
 TocTitle = 	\markup { \abs-fontsize #18 \medium \smallCaps \thisWork }
 TocTonality = 	\markup { \abs-fontsize #14 \medium \thisTonality }
 TocHeading = 	\markup { \abs-fontsize #22 "Table of Contents" }
@@ -68,16 +64,15 @@ CoverA = \markup {
   \override #'(line-width . 145)
   \column {
     \fontsize #3 \bold \override #'(box-padding . 0.0)  \override #'(thickness . 4.0)
-%   \box
+    \box
     \column {
-      \fill-line { \lower #14 \coverDedication }
-      \fill-line { \lower #8 \coverComposer }
-%      \fill-line { \lower #8 \coverDates }
+      \fill-line { \lower #16 \coverComposer }
+      \fill-line { \lower #8 \coverDates }
       \combine \null \vspace #2
       \fill-line { \lower #22 \coverVolutesUp }
       \fill-line { \lower #15 \coverTitle }
       \fill-line { \lower #10 \coverTonality }
-      \fill-line { \lower #14 \coverVolume }
+      \fill-line { \lower #14 \coverOpus }
       \fill-line { \lower #9 \coverSubtitle}
       \fill-line { \lower #6 \draw-line #'(20 . 0) }
       \fill-line { \lower #9 \coverDateCollection }
@@ -88,7 +83,6 @@ CoverA = \markup {
     }
   }
 }
-
 
 %%% Table of Contents Text Layout
 %%  all variables in this section are defined above (this file) except where noted
@@ -106,45 +100,14 @@ PageToc = \markup {
       %---------------------- TOC lines reference variables from /common/variables.ily
       %---------------------- SETUP: (a) Copy and adjust movement-specific variables, one entry per movement
       %----------------------        (b) May need to adjust horizontal spacing values
-      \fill-line {\override #'(line-width . 70) \lower #10 \toc-line #'WorkI \concat { \hspace #1.5 \thisWorkI  " - " \thisComposer_WorkI } }
-      \fill-line {\override #'(line-width . 70) \lower #6 \toc-line #'WorkII \concat { \hspace #1.5 \thisWorkII " - " \thisComposer_WorkII } }
-      \fill-line {\override #'(line-width . 70) \lower #6 \toc-line #'WorkII \concat { \hspace #1.5   " - " \thisTempo_WorkII_MovI } }
- \fill-line {\override #'(line-width . 70) \lower #6 \toc-line #'WorkII_II \concat { \hspace #1.5   " - " \thisTempo_WorkII_MovII } }
- \fill-line {\override #'(line-width . 70) \lower #6 \toc-line #'WorkII_III \concat { \hspace #1.5   " - " \thisTempo_WorkII_MovIII } }
- \fill-line {\override #'(line-width . 70) \lower #6 \toc-line #'WorkII_IV \concat { \hspace #1.5   " - " \thisTempo_WorkII_MovIV } }
-%      \fill-line {\override #'(line-width . 70) \lower #6 \toc-line #'secondScore \concat { \hspace #1.5 "Lento " - " "" } }
-
-%      \fill-line {\override #'(line-width . 70) \lower #6 \toc-line \thisLabelMovIII \concat { \hspace #0 \thisIdentifierMovIII " - " \thisTempoMovIII } }
+      \fill-line {\override #'(line-width . 70) \lower #10 \toc-line \thisLabelMovI \concat { \hspace #3.2 \thisIdentifierMovI " - " \thisTempoMovI } }
+      \fill-line {\override #'(line-width . 70) \lower #6 \toc-line \thisLabelMovII \concat { \hspace #1.5 \thisIdentifierMovII " - " \thisTempoMovII } }
+      \fill-line {\override #'(line-width . 70) \lower #6 \toc-line \thisLabelMovIII \concat { \hspace #0 \thisIdentifierMovIII " - " \thisTempoMovIII } }
       %---------------------------------------------- end TOC entry lines
       \fill-line {\lower #8 \override #'(thickness . 3) \draw-line #'(70 . 0)}
-%      \fill-line {\lower #20 \concat { "Source: " \TocSource }}
-%      \fill-line {\lower #25 \coverGenre}
+      \fill-line {\lower #20 \concat { "Source: " \TocSource }}
+      \fill-line {\lower #25 \coverGenre}
       \combine \null \vspace #4.4
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

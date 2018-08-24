@@ -28,6 +28,31 @@ thisBigTitle = "The Chamber Guitar"
 combinedPublicationName = ""
 
 %%----------------Movement-specific variables
+
+thisWorkI= "Balet de Village"
+thisComposer_WorkI= "J.B. Boismortier"
+thisTempo_WorkI_MovI= "Gaiment"
+thisNotes_WorkI_MovI= "BoismortierJB/Balet_de_village/01_gaiment/music.ily"
+thisIdentifier_WorkI_MovI= "I"
+
+thisWorkII= "Trio Sonata"
+thisComposer_WorkII= "J.B. Loiellet"
+thisTempo_WorkII_MovI= "Lento affettuoso"
+thisNotes_WorkII_MovI= "LoielletJB/OP2_NO12/01_lento/music.ily"
+thisIdentifier_WorkII_MovI= "I"
+
+thisTempo_WorkII_MovII= "Allegro"
+thisNotes_WorkII_MovII= "LoielletJB/OP2_NO12/02_allegro/music.ily"
+thisIdentifier_WorkII_MovII= "II"
+
+thisTempo_WorkII_MovIII= "Largo sostenuto"
+thisNotes_WorkII_MovIII= "LoielletJB/OP2_NO12/03_largo/music.ily"
+thisIdentifier_WorkII_MovIII= "III"
+
+thisTempo_WorkII_MovIV= "Allegro"
+thisNotes_WorkII_MovIV= "LoielletJB/OP2_NO12/04_largo/music.ily"
+thisIdentifier_WorkII_MovIV= "IV"
+
 thisWorkMovI = "The Chamber Guitar"
 thisIdentifierMovI = "Balet de Village"
 thisTempoMovI = "Gaiment"
@@ -41,7 +66,7 @@ thisTempoMovIII = "Allegretto"
 thisTempoMovIV = "Allegro"
 
 
-thisIdentifierMovII = "II. Romanze"
+thisIdentifierMovII = "Trio Sonata"
 thisIdentifierMovIII = "III. Menuetto"
 thisIdentifierMovIV = "IV. Rondo"
 
