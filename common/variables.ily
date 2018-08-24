@@ -38,19 +38,19 @@ thisIdentifier_WorkI_MovI= "I"
 thisWorkII= "Trio Sonata"
 thisComposer_WorkII= "J.B. Loiellet"
 thisTempo_WorkII_MovI= "Lento affettuoso"
-thisNotes_WorkII_MovI= "LoielletJB/OP2_NO12/01_lento/music.ily"
+thisNotes_WorkII_MovI= "LoielletJB/Op2-No12/01/music.ily"
 thisIdentifier_WorkII_MovI= "I"
 
 thisTempo_WorkII_MovII= "Allegro"
-thisNotes_WorkII_MovII= "LoielletJB/OP2_NO12/02_allegro/music.ily"
+thisNotes_WorkII_MovII= "02/music.ily"
 thisIdentifier_WorkII_MovII= "II"
 
 thisTempo_WorkII_MovIII= "Largo sostenuto"
-thisNotes_WorkII_MovIII= "LoielletJB/OP2_NO12/03_largo/music.ily"
+thisNotes_WorkII_MovIII= "LoielletJB/Op2-No12/03/music.ily"
 thisIdentifier_WorkII_MovIII= "III"
 
 thisTempo_WorkII_MovIV= "Allegro"
-thisNotes_WorkII_MovIV= "LoielletJB/OP2_NO12/04_largo/music.ily"
+thisNotes_WorkII_MovIV= "LoielletJB/Op2-No12/04/music.ily"
 thisIdentifier_WorkII_MovIV= "IV"
 
 thisWorkMovI = "The Chamber Guitar"
