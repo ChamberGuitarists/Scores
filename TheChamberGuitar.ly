@@ -11,7 +11,7 @@
 \include "common/definitions.ily"
 \include "common/conductor-dimension.ily"
 \include "common/conductor-cover.ily"
-\pointAndClickOff
+%\pointAndClickOff
 thisInstrName = \combinedPublicationName            %----------- /common/variables.ily
 Part = " " %----------- [blank for conductor]
 
@@ -23,7 +23,7 @@ thisIdentifier = \thisIdentifierMovI     %---------------------- /common/variabl
 thisTempo =      \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
 thisTocLabel =   \label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
 thisComposer= \thisComposerMovI
-\include \thisNotesMovI                %---------------------- [set to corresponding movement folder]
+\include "BoismortierJB/Balet_de_village/01_gaiment/music.ily"                %---------------------- [set to corresponding movement folder]
 %\bookpart { 
   \include "common/conductor-staff.ily"
 %}
@@ -70,6 +70,17 @@ thisComposer= "" % \thisComposerMovI
 %\include "LoielletJB/common/definitions.ily"
 \include "LoielletJB/Op2-No12/04/music.ily"               %---------------------- [set to corresponding movement folder]
 \include "common/conductor-staff.ily"
+\pageBreak
 
+
+%--------------- 3rd Work: Handel
+thisWork = "Nò, di voi non vo' fidarmi" %\thisWorkMovI
+thisIdentifier = "III" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =  "Andante" % \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   "#'MvmtI" %\label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
+%\label #'WorkIII
+thisComposer= \thisComposer_WorkIII % \thisComposerMovI
+\include "HandelGF/HWV189/01/music.ily"               %---------------------- [set to corresponding movement folder]
+\include "common/conductor-staff.ily"
 
 

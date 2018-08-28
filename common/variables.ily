@@ -41,6 +41,14 @@ thisTempo_WorkII_MovI= "Lento affettuoso"
 thisNotes_WorkII_MovI= "LoielletJB/Op2-No12/01/music.ily"
 thisIdentifier_WorkII_MovI= "I"
 
+thisWorkIII= "Nò, di voi non vo' fidarmi"
+thisComposer_WorkIII= "George Frederick Handel"
+thisTempo_WorkIII_MovI= "Andante"
+thisNotes_WorkIII_MovI= "HandelGF/HWV189/01/music.ily"
+thisIdentifier_WorkIII_MovI= "I"
+
+
+
 thisTempo_WorkII_MovII= "Allegro"
 thisNotes_WorkII_MovII= "02/music.ily"
 thisIdentifier_WorkII_MovII= "II"

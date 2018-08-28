@@ -17,7 +17,7 @@
   \repeat volta 2 {
     \oneVoice r8  \voiceOne |
     <a fis >4 a  <d g, d > <b g >8 <d g, > |
-	<e c >4 <a e > <fis dis > <e b > | 
+	<e c >4 a <fis dis > <e b > | 
     e4  a8  fis  d4  g8  e  |
 	c4  <fis b, > <b, g > <e b g > |
 	<fis dis >8 g  <fis dis >4 <e b g > c8  a'  |

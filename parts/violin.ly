@@ -77,3 +77,13 @@ thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variabl
 %thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
 \include "../common/parts-staff-single-instr.ily"
 
+\pageBreak 
+%--------------- 3rd Work: Handel
+\include "../HandelGF/HWV189/01/music.ily" 
+thisWork = "Nò, di voi non vo' fidarmi" %\thisWorkMovI
+thisComposer=\thisComposer_WorkIII
+theseNotes = \violin       %--------------- /mov_/music.ily
+thisTempo =  "Andante" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"
+
