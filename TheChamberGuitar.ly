@@ -11,7 +11,7 @@
 \include "common/definitions.ily"
 \include "common/conductor-dimension.ily"
 \include "common/conductor-cover.ily"
-%\pointAndClickOff
+\pointAndClickOff
 thisInstrName = \combinedPublicationName            %----------- /common/variables.ily
 Part = " " %----------- [blank for conductor]
 
@@ -28,7 +28,7 @@ thisComposer= \thisComposerMovI
   \include "common/conductor-staff.ily"
 %}
 
-
+\pageBreak
 
 %--------------- 2nd Work: Loiellet
 thisWork = "Trio Sonata" %\thisWorkMovI
@@ -73,14 +73,42 @@ thisComposer= "" % \thisComposerMovI
 \pageBreak
 
 
-%--------------- 3rd Work: Handel
-thisWork = "Nò, di voi non vo' fidarmi" %\thisWorkMovI
-thisIdentifier = "III" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
+%--------------- Eine Kleine Nachtmusik 1st mov
+thisWork = "Eine Kleine Nachtmusik" %\thisWorkMovI
+thisIdentifier = "IV" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =  "Allegro" % \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   "#'MvmtI" %\label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
+%\label #'WorkIII
+thisComposer= "Wolfgang Amadeus Mozart" % \thisComposerMovI
+\include "MozartWA/KV525-Trio/01_allegro/music.ily"               %---------------------- [set to corresponding movement folder]
+\include "common/conductor-staff.ily"
+
+%--------------- Eine Kleine Nachtmusik 2nd mov
+thisWork = "" %\thisWorkMovI
+thisIdentifier = "II - Romanza" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
 thisTempo =  "Andante" % \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
 thisTocLabel =   "#'MvmtI" %\label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
 %\label #'WorkIII
-thisComposer= \thisComposer_WorkIII % \thisComposerMovI
-\include "HandelGF/HWV189/01/music.ily"               %---------------------- [set to corresponding movement folder]
+thisComposer= "" % \thisComposerMovI
+\include "MozartWA/KV525-Trio/02_andante/music.ily"               %---------------------- [set to corresponding movement folder]
 \include "common/conductor-staff.ily"
 
+%--------------- Eine Kleine Nachtmusik 3rd mov
+thisWork = "" %\thisWorkMovI
+thisIdentifier = "III - Menuetto" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =  "Allegretto" % \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   "#'MvmtI" %\label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
+%\label #'WorkIII
+thisComposer= "" % \thisComposerMovI
+\include "MozartWA/KV525-Trio/03_allegretto/music.ily"               %---------------------- [set to corresponding movement folder]
+\include "common/conductor-staff.ily"
 
+%--------------- Eine Kleine Nachtmusik 4th mov
+thisWork = "" %\thisWorkMovI
+thisIdentifier = "IV - Allegro" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =  "Allegro" % \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   "#'MvmtI" %\label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
+%\label #'WorkIII
+thisComposer= "" % \thisComposerMovI
+\include "MozartWA/KV525-Trio/04_allegro/music.ily"               %---------------------- [set to corresponding movement folder]
+\include "common/conductor-staff.ily"

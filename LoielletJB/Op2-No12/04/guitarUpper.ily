@@ -2,23 +2,23 @@
   \voiceOne
   \repeat volta 2 { 
     <g' d >8 <b g > <c g e > |
-	<a fis >4 g8  |
+	a4 g8  |
 	d'8.  c32  d  e8  |
 	c4  b8  |
 	<g d > <b g > <c g e > |
-    <a fis >4 g8  |
+    a4 g8  |
 	g  c  a  |
 	<g' b, >4. |
 	g,8  c  a  | \barNumberCheck #10
 %10
     <g' b, >4. |
     r8  c,  <a e > |
-	fis  a  d  |
+	r  a  d  |
 	<fis d > a,  b  |
-	fis  a  d  |
+	r  a  d  |
 	<fis d > a,  b  |
     fis'8  fis  fis  |
-	<g d > <b, g > <c g e > |
+	g <b, g > <c g e > |
 	r  a  <b g > |
 	g  c  a  | \barNumberCheck #20
 %20
@@ -49,11 +49,11 @@
 	<d a fis >4. | 
   }
   \repeat volta 2 {
-	a'8  <fis d a > <g d b > |
-	<e cis >4 d8  |
+	a'8  <fis d> <g b,> |
+	e4 d8  |
 	a'8.  g32  a  b8  |
 	g4  fis8  |
-	<d a > <fis d a > <g d b > |
+	<d a > <fis d> <g  b, > |
     <e a, >4 <d a >8 |
 	fis  g  <e cis > | \barNumberCheck #50
 %50

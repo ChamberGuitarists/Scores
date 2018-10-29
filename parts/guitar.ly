@@ -40,6 +40,7 @@ thisTempo = \thisTempo_WorkI_MovI  %--------------- /common/variables.ily
 \pageBreak
 
 
+
 %---------------First Mov
 \include "../LoielletJB/Op2-No12/01/music.ily"
 thisWork= "Trio Sonata"
@@ -79,14 +80,40 @@ thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variabl
 \include "../common/parts-staff-single-instr.ily"
 %}
 \pageBreak
-%--------------- 3rd Work: Handel
-\include "../HandelGF/HWV189/01/music.ily" 
-thisWork = "Nò, di voi non vo' fidarmi" %\thisWorkMovI
-thisComposer=\thisComposer_WorkIII
+
+%--------------- Mozart - 1st movement
+\include "../MozartWA/KV525-Trio/01_allegro/music.ily" 
+thisWork = "Eine Kleine Nachtmusik" %\thisWorkMovI
+thisComposer="Wolfgang Amadeus Mozart"
+theseNotes = \guitar       %--------------- /mov_/music.ily
+thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"
+
+%--------------- Mozart - 2nd movement
+\include "../MozartWA/KV525-Trio/02_andante/music.ily" 
+thisWork = "" %\thisWorkMovI
+thisComposer=""
 theseNotes = \guitar       %--------------- /mov_/music.ily
 thisTempo =  "Andante" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
 %thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
-%\bookpart { 
-  \include "../common/parts-staff-single-instr.ily"
-%}
+\include "../common/parts-staff-single-instr.ily"
 
+%--------------- Mozart - 3rd movement
+\include "../MozartWA/KV525-Trio/03_allegretto/music.ily" 
+thisWork = "" %\thisWorkMovI
+thisComposer=""
+theseNotes = \guitar       %--------------- /mov_/music.ily
+thisTempo =  "Allegretto" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"
+
+
+%--------------- Mozart - 4th movement
+\include "../MozartWA/KV525-Trio/04_allegro/music.ily" 
+thisWork = "" %\thisWorkMovI
+thisComposer=""
+theseNotes =  \guitar      %--------------- /mov_/music.ily
+thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"

@@ -27,33 +27,16 @@ thisBigTitle = "The Chamber Guitar"
 combinedPublicationName = "Full Score"
 
 %%----------------Movement-specific variables
-thisWorkMovI = "The Chamber Guitar"
-thisIdentifierMovI = "Balet de Village"
+thisWorkMovI = "Balet de Village"
+thisIdentifierMovI = "Gaiment"
 thisTempoMovI = "Gaiment"
 thisLabelMovI = #'MvmtI
 thisComposerMovI= "J.B. Boismortier"
-thisFilenameMovI = "Boismortier_1"
+thisFilenameMovI = "Gaiment"
 thisNotesMovI= "01_gaiment/music.ily"
 
-thisTempoMovII = "Andante"
-thisTempoMovIII = "Allegretto"
-thisTempoMovIV = "Allegro"
-
-
-thisIdentifierMovII = "II. Romanze"
-thisIdentifierMovIII = "III. Menuetto"
-thisIdentifierMovIV = "IV. Rondo"
-
-
-thisLabelMovII = #'MvmtII
-thisLabelMovIII = #'MvmtIII
-thisLabelMovIV = #'MvmtIV
-
-
-thisFilenameMovII = "MozartWA-KV525-mov-02"
-thisFilenameMovIII = "MozartWA-KV525-mov-03"
-thisFilenameMovIV = "MozartWA-KV525-mov-04"
-
+thisNotesMovI= "02_vivement/music.ily"
+thisFilenameMovII = "Vivement"
 %%----------------Instrument-specific variables
 thisInstrNameI = "Flute"
 thisInstrNameII = "Violin"

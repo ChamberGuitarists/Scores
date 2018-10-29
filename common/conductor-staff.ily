@@ -1,7 +1,10 @@
 \include "version.ily"
 \include "styles.ily"
+
+
 \score {
-  \keepWithTag #'printed        %----------------------------- [manual entry]
+%\set Score.skipTypesetting = ##f
+\keepWithTag #'printed        %----------------------------- [manual entry]
   \new StaffGroup
     <<
 

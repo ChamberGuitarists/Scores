@@ -27,6 +27,8 @@ thisInstrName = \thisInstrNameIII  %----------- /common/variables.ily
 Part = \thisInstrName              %------------[fixed for parts]
 thisClef = \thisClefInstrIII       %----------- [manual entry]
 
+%{
+
 %---------------MOVEMENTS 
 %------- -------First Mov
 \include "../01/music.ily"
@@ -49,9 +51,13 @@ thisTempo = \thisTempoMovIII  %-------------- /common/variables.ily
 thisIdentifier = \thisIdentifierMovIII %----- /common/variables.ily
 \bookpart { \include "../common/parts-staff-single-instr.ily" }
 
+%}
+
 %--------------Fourth Mov
 \include "../04/music.ily"
 theseNotes = \guitar            %-------------- /mov_/music.ily
 thisTempo = \thisTempoMovIV  %-------------- /common/variables.ily
 thisIdentifier = \thisIdentifierMovIV %----- /common/variables.ily
-\bookpart { \include "../common/parts-staff-single-instr.ily" }
+%\bookpart { 
+\include "../common/parts-staff-single-instr.ily" 
+%}

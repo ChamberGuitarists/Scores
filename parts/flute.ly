@@ -21,13 +21,14 @@
 \include "../common/mutopia-header.ily"
 \include "../common/definitions.ily"
 \include "../common/parts-dimension.ily"
-
+%\include "../common/part-cover.ily"
 
 %--------Part-specific settings
 thisInstrName = \thisInstrNameI  %----------- /common/variables.ily
 Part = \thisInstrName            %------------[fixed for parts]
 thisClef = \thisClefInstrI       %----------- [manual entry]
 
+\bookpart { \CoverA }  
 
 %---------------First Piece
 \include "../BoismortierJB/Balet_de_village/01_gaiment/music.ily"
@@ -37,6 +38,7 @@ theseNotes = \flute    %--------------- /mov_/music.ily
 thisTempo = \thisTempo_WorkI_MovI  %--------------- /common/variables.ily
 %thisIdentifier = \thisIdentifierMovI %------ /common/variables.ily
 \include "../common/parts-staff-single-instr.ily" 
+
 \pageBreak
 
 
@@ -79,13 +81,39 @@ thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variabl
 
 \pageBreak
 
-%--------------- 3rd Work: Handel
-\include "../HandelGF/HWV189/01/music.ily" 
-thisWork = "Nò, di voi non vo' fidarmi" %\thisWorkMovI
-thisComposer=\thisComposer_WorkIII
+%--------------- Mozart - 1st movement
+\include "../MozartWA/KV525-Trio/01_allegro/music.ily" 
+thisWork = "Eine Kleine Nachtmusik" %\thisWorkMovI
+thisComposer="Wolfgang Amadeus Mozart"
+theseNotes = \flute       %--------------- /mov_/music.ily
+thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"
+
+%--------------- Mozart - 2nd movement
+\include "../MozartWA/KV525-Trio/02_andante/music.ily" 
+thisWork = "" %\thisWorkMovI
+thisComposer=""
 theseNotes = \flute       %--------------- /mov_/music.ily
 thisTempo =  "Andante" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
 %thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
 \include "../common/parts-staff-single-instr.ily"
 
+%--------------- Mozart - 3rd movement
+\include "../MozartWA/KV525-Trio/03_allegretto/music.ily" 
+thisWork = "" %\thisWorkMovI
+thisComposer=""
+theseNotes = \flute       %--------------- /mov_/music.ily
+thisTempo =  "Allegretto" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"
 
+
+%--------------- Mozart - 4th movement
+\include "../MozartWA/KV525-Trio/04_allegro/music.ily" 
+thisWork = "" %\thisWorkMovI
+thisComposer=""
+theseNotes = \flute       %--------------- /mov_/music.ily
+thisTempo =  "Allegro" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
+\include "../common/parts-staff-single-instr.ily"
