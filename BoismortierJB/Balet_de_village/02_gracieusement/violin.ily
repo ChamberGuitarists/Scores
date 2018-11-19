@@ -1,8 +1,6 @@
 \relative c'{
-	\clef "treble"
-	\time 3/4	
-      \key	c \major
-     R1*3/4 |
+
+    R1*3/4 |
 	g''4  c,8.  d16  d8.  c32  d  |
 	e4  d  c  |
 	b8  a  b2  |
@@ -10,7 +8,7 @@
 	\break 
  
 
-	 b4  e  c ~  |
+	b4  e  c ~  |
 	c8  d  b4.  c8  |
 	c2  c4  |
 	c  b  e  |
@@ -20,7 +18,7 @@
 	\break 
  
 
-	 e4  fis  g  |
+	e4  fis  g  |
 	fis4.  e8  d4  |
 	e  a,4.  g8  |
 	g2.  |
@@ -31,7 +29,7 @@
 	\break 
  
 
-	 b8  c  b4  b  |
+	b8  c  b4  b  |
 	d4.  c8  b4  |
 	e  b  c  |
 	b2.  |
@@ -40,7 +38,7 @@
 	\break 
  
 
-	 e8  d  c  d  e4  |
+	e8  d  c  d  e4  |
 	d2  e4  |
 	f  e  d  |
 	c4.  d8  e4  |

@@ -1,8 +1,5 @@
 \relative c'{
-    \clef "treble"
-	\time 2/4
 
-	\key	c \major
 	\partial 4
     c'8 \f d  |
 	e  e  e  g,  |

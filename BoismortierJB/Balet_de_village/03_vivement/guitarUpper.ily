@@ -69,8 +69,8 @@
 
 	a8  d,  g  g  |
 	g  c,  f  f  \voiceOne |
-	<g' b, >4 <g c, > |
-	<f c > <f b, > |
+	<g b >4 <g c > |
+	<f' c > <f b, > |
 	e  \oneVoice b8  g  |
 	c  a  d  d,  |
 	\break 

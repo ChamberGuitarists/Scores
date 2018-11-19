@@ -39,6 +39,37 @@ thisTempo = \thisTempo_WorkI_MovI  %--------------- /common/variables.ily
 \include "../common/parts-staff-single-instr.ily" 
 \pageBreak
 
+%---------------First Piece -2nd mov't
+\include "../BoismortierJB/Balet_de_village/02_gracieusement/music.ily"
+thisWork= ""
+thisComposer= ""
+theseNotes = \guitar    %--------------- /mov_/music.ily
+thisTempo = "Gracieusement"  %--------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovI %------ /common/variables.ily
+\include "../common/parts-staff-single-instr.ily" 
+%\pageBreak
+
+%---------------First Piece -3rd mov't
+\include "../BoismortierJB/Balet_de_village/03_vivement/music.ily"
+thisWork= ""
+thisComposer= ""
+theseNotes = \guitar    %--------------- /mov_/music.ily
+thisTempo = "Vivement"  %--------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovI %------ /common/variables.ily
+\include "../common/parts-staff-single-instr.ily" 
+\pageBreak
+
+%---------------Handel - first Mov
+\include "../HandelGF/HWV189/01/music.ily"
+thisWork= "Nò, di voi non vo' fidarmi"
+thisComposer= "G.F. Handel"
+theseNotes = \guitar    %--------------- /mov_/music.ily
+thisTempo = "Allegro"  %--------------- /common/variables.ily
+%thisIdentifier = \thisIdentifierMovI %------ /common/variables.ily
+\include "../common/parts-staff-single-instr.ily" 
+\pageBreak
+
+
 
 
 %---------------First Mov
@@ -98,6 +129,8 @@ theseNotes = \guitar       %--------------- /mov_/music.ily
 thisTempo =  "Andante" %\thisTempo_Work_II_MovIV  %------------- /common/variables.ily
 %thisIdentifier = \thisIdentifierMovIV %---- /common/variables.ily
 \include "../common/parts-staff-single-instr.ily"
+
+\pageBreak
 
 %--------------- Mozart - 3rd movement
 \include "../MozartWA/KV525-Trio/03_allegretto/music.ily" 

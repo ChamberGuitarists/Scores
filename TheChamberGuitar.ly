@@ -17,6 +17,8 @@ Part = " " %----------- [blank for conductor]
 
 \bookpart { \CoverA } 
 
+
+
 %--------------- First Piece: Boismortier
 thisWork = "Balet de Village"
 thisIdentifier = \thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
@@ -28,7 +30,35 @@ thisComposer= \thisComposerMovI
   \include "common/conductor-staff.ily"
 %}
 
+%\pageBreak
+
+
+thisWork = ""
+thisIdentifier = "II"    %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =      "Gracieusement"          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   \label #'MvmtII   %---------------------- /common/variables.ily [set to corresponding movement]
+thisComposer= ""
+\include "BoismortierJB/Balet_de_village/02_gracieusement/music.ily"               %---------------------- [set to corresponding movement folder]
+%\bookpart { 
+  \include "common/conductor-staff.ily"
+%}
+
+thisWork = ""
+thisIdentifier = "III"    %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =      "Vivement"          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   \label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
+thisComposer= ""
+\include "BoismortierJB/Balet_de_village/03_vivement/music.ily"                %---------------------- [set to corresponding movement folder]
+%\bookpart { 
+  \include "common/conductor-staff.ily"
+%}
+
 \pageBreak
+
+
+
+
+
 
 %--------------- 2nd Work: Loiellet
 thisWork = "Trio Sonata" %\thisWorkMovI
@@ -73,6 +103,24 @@ thisComposer= "" % \thisComposerMovI
 \pageBreak
 
 
+%%%%%% Handel
+thisWork = "Nò, di voi non vo' fidarmi"
+thisIdentifier = ""    %---------------------- /common/variables.ily [set to corresponding movement]
+thisTempo =      "Allegro"          %---------------------- /common/variables.ily [set to corresponding movement]
+thisTocLabel =   \label ""   %---------------------- /common/variables.ily [set to corresponding movement]
+thisComposer= "G.F. Handel"
+\include "HandelGF/HWV189/01/music.ily"                %---------------------- [set to corresponding movement folder]
+%\bookpart { 
+  \include "common/conductor-staff.ily"
+%}
+
+\pageBreak
+
+
+
+
+
+%}
 %--------------- Eine Kleine Nachtmusik 1st mov
 thisWork = "Eine Kleine Nachtmusik" %\thisWorkMovI
 thisIdentifier = "IV" %\thisIdentifierMovI     %---------------------- /common/variables.ily [set to corresponding movement]
@@ -112,3 +160,4 @@ thisTocLabel =   "#'MvmtI" %\label \thisLabelMovI   %---------------------- /com
 thisComposer= "" % \thisComposerMovI
 \include "MozartWA/KV525-Trio/04_allegro/music.ily"               %---------------------- [set to corresponding movement folder]
 \include "common/conductor-staff.ily"
+

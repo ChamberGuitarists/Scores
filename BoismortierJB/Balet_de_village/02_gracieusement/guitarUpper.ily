@@ -1,19 +1,13 @@
 \relative c{
 	\voiceOne
-
- 	\clef "G_8"
-	\time 3/4
-	
-	\key	c \major
-	 <c' e, >2 <b g >4 |
+    <c' e, >2 <b g >4 |
 	<c e, >2 <c d, >4 |
 	<c g > <d f, > <c e, > |
 	<b d, > <b d, >2 |
 	<c g >4 <c a > <d a > |
-	\break 
- 
-
-	 <b g >4 <c g > <c a > |
+	\break
+    
+	<b g >4 <c g > <c a > |
 	<d a > <b g >2 |
 	<c g > <c g >4 |
 	<c e, > <b d, > <c g > |
@@ -23,7 +17,7 @@
 	\break 
  
 
-	 <g e >4 <c fis, > <b g > |
+	<g e >4 <c fis, > <b g > |
 	<a fis >2 <d g, >4 |
 	<e g, > <d a fis >2 |
 	<b g > <b g >4 |
@@ -34,7 +28,7 @@
 	\break 
  
 
-	 <f' d >2. |
+	<f' d >2. |
 	<g b, > |
 	g,4  b  <c e, > |
 	<d b > <d b >2 |
@@ -43,7 +37,7 @@
 	\break 
  
 
-	 c4  g  c  |
+	c4  g  c  |
 	<b g >2 <c g >4 |
 	<c d, > <c e, > <b d, > |
 	<c e, >2 <c g >4 |

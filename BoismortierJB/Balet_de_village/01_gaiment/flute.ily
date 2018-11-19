@@ -1,5 +1,4 @@
 \relative c'{
-    \clef "treble"
     \partial 4
     e'8 \f f  |
 	g  c,  c  c  |

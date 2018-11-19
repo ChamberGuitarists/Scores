@@ -20,13 +20,16 @@
             \global
             \violin
           }
+          
+           \new Staff \with {
+            \override RestCollision.positioning-done = #merge-rests-on-positioning
+          } 
+          <<
+            \set Staff.instrumentName = \thisInstrNameIII
+            \thisClefInstrIII
+            \global \guitar
+          >>
  
-          \new Staff {
-          \set Staff.instrumentName = \thisInstrNameIII
-          \thisClefInstrIII
-          \global
-          \guitar
-        }
 
  %       \new Staff {
  %         \set Staff.instrumentName = \thisInstrNameIV
