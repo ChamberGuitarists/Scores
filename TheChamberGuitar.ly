@@ -25,7 +25,7 @@ thisIdentifier = \thisIdentifierMovI     %---------------------- /common/variabl
 thisTempo =      \thisTempoMovI          %---------------------- /common/variables.ily [set to corresponding movement]
 thisTocLabel =   \label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
 thisComposer= \thisComposerMovI
-\include "BoismortierJB/Balet_de_village/01_gaiment/music.ily"                %---------------------- [set to corresponding movement folder]
+\include "BoismortierJB/O52/Premier_Balet_de_Village/01/music.ily"                %---------------------- [set to corresponding movement folder]
 %\bookpart { 
   \include "common/conductor-staff.ily"
 %}
@@ -38,7 +38,7 @@ thisIdentifier = "II"    %---------------------- /common/variables.ily [set to c
 thisTempo =      "Gracieusement"          %---------------------- /common/variables.ily [set to corresponding movement]
 thisTocLabel =   \label #'MvmtII   %---------------------- /common/variables.ily [set to corresponding movement]
 thisComposer= ""
-\include "BoismortierJB/Balet_de_village/02_gracieusement/music.ily"               %---------------------- [set to corresponding movement folder]
+\include "BoismortierJB/O52/Premier_Balet_de_Village/02/music.ily"               %---------------------- [set to corresponding movement folder]
 %\bookpart { 
   \include "common/conductor-staff.ily"
 %}
@@ -48,7 +48,7 @@ thisIdentifier = "III"    %---------------------- /common/variables.ily [set to 
 thisTempo =      "Vivement"          %---------------------- /common/variables.ily [set to corresponding movement]
 thisTocLabel =   \label \thisLabelMovI   %---------------------- /common/variables.ily [set to corresponding movement]
 thisComposer= ""
-\include "BoismortierJB/Balet_de_village/03_vivement/music.ily"                %---------------------- [set to corresponding movement folder]
+\include "BoismortierJB/O52/Premier_Balet_de_Village/03/music.ily"                %---------------------- [set to corresponding movement folder]
 %\bookpart { 
   \include "common/conductor-staff.ily"
 %}

@@ -30,7 +30,7 @@
 	a4  fis  g  e  |
 	fis  cis  d  e  |
 	
-	fis8  d  ~ a'4  a  g  |
+	fis8  d  a'4  a  g  |
 	fis  cis  d  g  |
 	a,  a  d  fis8  b  |
 

@@ -22,6 +22,7 @@
 \include "../common/definitions.ily"
 \include "../common/parts-dimension.ily"
 
+\pointAndClickOff
 
 %--------Part-specific settings
 thisInstrName = \thisInstrNameII  %----------- /common/variables.ily

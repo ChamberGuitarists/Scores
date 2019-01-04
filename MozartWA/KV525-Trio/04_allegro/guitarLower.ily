@@ -91,7 +91,7 @@
     s4 g4 -. g4 -. g4 -. | \barNumberCheck #80
     \oneVoice
     g4 es' es bes | 
-    bes g g es ) ]     | 
+    bes g g es    | 
     d8 [ d'8 c8 d8 ] bes8 [ d8 bes8 g8 ] | 
     d4 d4 d4 r4 | 
     \voiceTwo       

@@ -12,17 +12,17 @@
   ***********************************************************************
 %}
 
-%#(set-default-paper-size "letter")
+#(set-default-paper-size "letter")
 #(ly:set-option 'relative-includes #t)
 
 \version "2.18.2"
-%\include "../common/version.ily"
+
 \include "../common/variables.ily"
 \include "../common/mutopia-header.ily"
 \include "../common/definitions.ily"
 \include "../common/parts-dimension.ily"
 %\include "../common/part-cover.ily"
-
+\pointAndClickOff
 %--------Part-specific settings
 thisInstrName = \thisInstrNameI  %----------- /common/variables.ily
 Part = \thisInstrName            %------------[fixed for parts]
@@ -31,7 +31,7 @@ thisClef = \thisClefInstrI       %----------- [manual entry]
 %\bookpart { \CoverA }  
 
 %---------------First Piece
-\include "../BoismortierJB/Balet_de_village/01_gaiment/music.ily"
+\include "../BoismortierJB/O52/Premier_Balet_de_Village/01/music.ily"
 thisWork= "Balet de Village"
 thisComposer= \thisComposer_WorkI
 theseNotes = \flute    %--------------- /mov_/music.ily
@@ -43,7 +43,7 @@ thisTempo = \thisTempo_WorkI_MovI  %--------------- /common/variables.ily
 
 
 %---------------First Piece -2nd mov't
-\include "../BoismortierJB/Balet_de_village/02_gracieusement/music.ily"
+\include "../BoismortierJB/O52/Premier_Balet_de_Village/02/music.ily"
 thisWork= ""
 thisComposer= ""
 theseNotes = \flute   %--------------- /mov_/music.ily
@@ -53,7 +53,7 @@ thisTempo = "Gracieusement"  %--------------- /common/variables.ily
 %\pageBreak
 
 %---------------First Piece -3rd mov't
-\include "../BoismortierJB/Balet_de_village/03_vivement/music.ily"
+\include "../BoismortierJB/O52/Premier_Balet_de_Village/03/music.ily"
 thisWork= ""
 thisComposer= ""
 theseNotes = \flute    %--------------- /mov_/music.ily
