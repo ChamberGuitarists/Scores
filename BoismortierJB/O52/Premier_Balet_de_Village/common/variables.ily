@@ -11,59 +11,36 @@ thisBigTitle = "Premier Balet de Village"
 thisFilename = "Premier_Balet"
 combinedPublicationName = "Full Score"
 
-folder = "01"
+
 thisTempoMovI = "Gaiment"
-thisMetronomeBeat = "4"
-thisMetronomeSpeed = "100"
 thisIdentifierMovI = "I"
 thisLabelMovI = "labelI"
-thisKey = "c \major"
-thisTime = "2/4"
 thisFilenameMovI = "Premier_Balet_01"
 
-folder = "02"
 thisTempoMovII = "Gracieusement"
-thisMetronomeBeat = "4"
-thisMetronomeSpeed = "50"
 thisIdentifierMovII = "II"
 thisLabelMovII = "labelII"
-thisKey = "c \major"
-thisTime = "3/4"
 thisFilenameMovII = "Premier_Balet_02"
 
-folder = "03"
 thisTempoMovIII = "Vivement"
-thisMetronomeBeat = "4"
-thisMetronomeSpeed = "72"
 thisIdentifierMovIII = "III"
 thisLabelMovIII = "labelIII"
-thisKey = "c \major"
-thisTime = "2/4"
 thisFilenameMovIII = "Premier_Balet_03"
 
 thisInstrNameI = "Flute"
-thisInstrFile = "flute"
 thisMidiInstrumentI = "flute"
 thisInstrShortNameI = ""
 thisClefInstrI = \clef treble
-thisNotes = "./BoismortierJB/Op52/Premier_Balet_de_Village/01/flute.ily"
 
 thisInstrNameII = "Violin"
-thisInstrFile = "violin"
 thisMidiInstrumentII = "violin"
 thisInstrShortNameII = ""
 thisClefInstrII = \clef treble
-thisNotes = "./BoismortierJB/Op52/Premier_Balet_de_Village/01"
 
 thisInstrNameIII = "Guitar"
-thisInstrFile = "guitarLower"
 thisMidiInstrumentIII = "acoustic guitar (nylon)"
 thisInstrShortNameIII = ""
 thisClefInstrIII = \clef "G_8"
 
-thisInstrName = "guitarUpper"
-thisInstrFile = "guitarUpper"
-thisMidiInstrumentIV = "acoustic guitar (nylon)"
-thisInstrShortNameIV = ""
-thisClefInstrIV = \clef "G_8"
+
 

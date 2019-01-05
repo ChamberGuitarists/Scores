@@ -1,14 +1,5 @@
 %{
-  ***********************************************************************
-  * Composer - Work in Tonality                                         *
-  * typeset by                                                       *
-  *                                                                     *
-  *                                                                     *
-  * Common definitions file, to be included in all other files          *
-  *                                                                     *
-  * Do not compile                                                      *
-  *                                                                     *
-  ***********************************************************************
+  * a hodge-podge of definitions
 %}
 
 \include "merge-rests.scm"
